@@ -89,3 +89,8 @@ nv.addGraph(function() {
   return chart;
 });
 
+
+// Public API example
+d3.json('in-theaters.json', function(err, data) {
+  $('#public-api-data').text(JSON.stringify(data, null, 2));
+});

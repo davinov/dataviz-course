@@ -86,3 +86,6 @@
 If a service doen't offer an API or export functions,
 you can try [import.io](https://import.io).
 > Tip: Import.io allows export with plotly
+
+### From APIs
+APIs can produce JSON or XML we can consume with d3.
