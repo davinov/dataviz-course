@@ -108,5 +108,49 @@ d3.json('in-theaters.json', function(err, data) {
     .sortBy(function(movie) {return - movie.metascore})
     .value()
     
-    $('#public-api-data-curated').text(JSON.stringify(curatedData, null, 2));
+    $('#public-api-data-curated').text(JSON.stringify(curatedData, null, 2))
+    
+    // Interactivity
+    
+    function updateChart(valueSelector) {
+      nv.addGraph(function() {
+      var chart = nv.models.multiBarHorizontalChart()
+          .x(function(d) { return d.title })
+          .y(function(d) { return d[valueSelector] })
+          .margin({top: 30, right: 20, bottom: 50, left: 175})
+          .showValues(true)
+          .tooltips(false)
+          .showControls(false);
+
+      chart.yAxis
+          .tickFormat(d3.format(',.0f'));
+
+      d3.select('#interactive-chart svg')
+          .datum([
+            {
+              "key": "Movies",
+              "color": "#d62728",
+              "values": curatedData
+            }
+          ])
+          .transition().duration(500)
+          .call(chart);
+
+      nv.utils.windowResize(chart.update);
+
+      return chart;
+    });
+  }
+  
+  updateChart('metascore');
+  
+  $('#switch-metric-votes').click(function(){
+    updateChart('votes');
+  });
+  $('#switch-metric-metascore').click(function(){
+    updateChart('metascore');
+  });
+  $('#switch-metric-filmingLocationsCount').click(function(){
+    updateChart('filmingLocationsCount');
+  });
 });

@@ -92,3 +92,6 @@ APIs can produce JSON or XML we can consume with d3.
 
 ### Reshaping
 Have a look at [LoDash](https://lodash.com/) to reshape your data.
+
+### Add some interactivity
+- `<button>`s and `function`s

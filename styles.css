@@ -12,6 +12,7 @@ body {
   border: none;
 }
 
-#nvd3-chart svg {
+#nvd3-chart svg,
+#interactive-chart svg {
   height: 400px;
 }
