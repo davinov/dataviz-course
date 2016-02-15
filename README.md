@@ -26,3 +26,12 @@
 ## From scratch to a basic webpage
 - Find a basic HTML page template such as [http://www.sitepoint.com/a-basic-html5-template/]
 - Adapt it to your needs
+
+### Styling
+- Import a style framework in your project like [Bootstrap](http://getbootstrap.com/)
+  > Tip: to avoid downloading it and add it to your repo,
+  include it from a CDN (Content Delivery Network). Get the 
+  code to be included from [https://www.bootstrapcdn.com/]
+  > More fun: include Font Awesome to add some icons, and/or
+  choose a theme from Bootswatch collection to avoid the
+  default style
