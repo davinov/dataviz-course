@@ -80,3 +80,4 @@
 
 ### Using tabular files
 - [Convert CSV to JSON](http://www.csvjson.com/csv2json)
+- Use [d3 CSV retriever](https://github.com/mbostock/d3/wiki/CSV)
