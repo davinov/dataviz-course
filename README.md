@@ -41,3 +41,10 @@
     <link rel="stylesheet" href="styles.css">
  ```
  
+ ## Creating charts
+ 
+ ### Online tools
+ - [Chart Blocks](http://www.chartblocks.com/en/)
+ - [Highcharts cloud](https://cloud.highcharts.com/)
+ - [Infogr.am](http://infogr.am)
+ 
