@@ -146,11 +146,14 @@ d3.json('in-theaters.json', function(err, data) {
   
   $('#switch-metric-votes').click(function(){
     updateChart('votes');
+    ga('send', 'event', 'interactive-chart', 'switch-metric', 'Votes');
   });
   $('#switch-metric-metascore').click(function(){
     updateChart('metascore');
+    ga('send', 'event', 'interactive-chart', 'switch-metric', 'Metascore');
   });
   $('#switch-metric-filmingLocationsCount').click(function(){
     updateChart('filmingLocationsCount');
+    ga('send', 'event', 'interactive-chart', 'switch-metric', 'Filming locations');
   });
 });

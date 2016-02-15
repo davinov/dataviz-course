@@ -95,3 +95,8 @@ Have a look at [LoDash](https://lodash.com/) to reshape your data.
 
 ### Add some interactivity
 - `<button>`s and `function`s
+
+## Analytics
+[Google Analytics](http://www.google.com/analytics/)
+
+Include the code provided in the page and look at the dashboard.
