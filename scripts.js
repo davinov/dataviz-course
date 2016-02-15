@@ -93,4 +93,20 @@ nv.addGraph(function() {
 // Public API example
 d3.json('in-theaters.json', function(err, data) {
   $('#public-api-data').text(JSON.stringify(data, null, 2));
+  
+  var curatedData = _(data.data.inTheaters)
+    .map('movies')
+    .flatten()
+    .map(function(movie){
+      return {
+        votes: movie.votes,
+        title: movie.title,
+        metascore: +movie.metascore,
+        filmingLocationsCount: movie.filmingLocations.length 
+      };
+    })
+    .sortBy(function(movie) {return - movie.metascore})
+    .value()
+    
+    $('#public-api-data-curated').text(JSON.stringify(curatedData, null, 2));
 });
