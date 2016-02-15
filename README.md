@@ -57,15 +57,21 @@
 ### JavaScript libraries
 - [Highcharts](http://www.highcharts.com/)
 ```
-<script src="http://code.highcharts.com/highcharts.js"></script>
+  <script src="http://code.highcharts.com/highcharts.js"></script>
 ```
 > Warning: many examples use another widely-used library: jQuery
   Include it with `<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>`
 
 - [NVD3](http://nvd3.org/)
 ```
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.1/nv.d3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.1/nv.d3.css">
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.15/d3.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.1/nv.d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.15/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.1/nv.d3.min.js"></script>
 ```
+
+- [D3](https://d3js.org/)
+  
+  D3 usage is out the scope of this quick course, but you can
+  easily reuse from the [gallery](https://github.com/mbostock/d3/wiki/Gallery)
+  or [bl.ocks.org](http://bl.ocks.org/), [Mike's ones](http://bl.ocks.org/mbostock)
