@@ -11,3 +11,7 @@ body {
   height: 500px;
   border: none;
 }
+
+#nvd3-chart svg {
+  height: 400px;
+}
