@@ -32,6 +32,12 @@
   > Tip: to avoid downloading it and add it to your repo,
   include it from a CDN (Content Delivery Network). Get the 
   code to be included from [https://www.bootstrapcdn.com/]
+  
   > More fun: include Font Awesome to add some icons, and/or
   choose a theme from Bootswatch collection to avoid the
   default style
+- Prepare a stylesheet for your specific styles
+ ```
+    <link rel="stylesheet" href="styles.css">
+ ```
+ 
