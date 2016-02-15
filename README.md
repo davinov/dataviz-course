@@ -75,3 +75,8 @@
   D3 usage is out the scope of this quick course, but you can
   easily reuse from the [gallery](https://github.com/mbostock/d3/wiki/Gallery)
   or [bl.ocks.org](http://bl.ocks.org/), [Mike's ones](http://bl.ocks.org/mbostock)
+
+## Getting data
+
+### Using tabular files
+- [Convert CSV to JSON](http://www.csvjson.com/csv2json)
