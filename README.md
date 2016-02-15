@@ -48,3 +48,8 @@
  - [Highcharts cloud](https://cloud.highcharts.com/)
  - [Infogr.am](http://infogr.am)
  
+ Or, with a little integration work:
+ - [Data Wrapper]
+ > Tip: To integrate for free a Data Wrapper chart, download the
+ .zip archive provided and include the files with an `<iframe>`
+ 
