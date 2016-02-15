@@ -17,3 +17,9 @@
   > Tip: set `gh-pages` as default branch in your repository settings
 - Create an index.html file with some content
 - Observe it live on `your-github-name.github.io/repository-name`!
+
+### Preview your code locally
+- Install a webserver on your computer
+  > Try [Fenix](http://fenixwebserver.com/) which is a very simple one
+- Make it serve your repository's directory
+
