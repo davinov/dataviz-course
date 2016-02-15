@@ -81,3 +81,8 @@
 ### Using tabular files
 - [Convert CSV to JSON](http://www.csvjson.com/csv2json)
 - Use [d3 CSV retriever](https://github.com/mbostock/d3/wiki/CSV)
+
+### Using websites data
+If a service doen't offer an API or export functions,
+you can try [import.io](https://import.io).
+> Tip: Import.io allows export with plotly
