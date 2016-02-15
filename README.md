@@ -53,3 +53,11 @@
  > Tip: To integrate for free a Data Wrapper chart, download the
  .zip archive provided and include the files with an `<iframe>`
  
+ 
+### JavaScript libraries
+- [Highcharts](http://www.highcharts.com/)
+```
+<script src="http://code.highcharts.com/highcharts.js"></script>
+```
+> Warning: many examples use another widely-used library: jQuery
+  Include it with `<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>`
