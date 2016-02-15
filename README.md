@@ -23,3 +23,6 @@
   > Try [Fenix](http://fenixwebserver.com/) which is a very simple one
 - Make it serve your repository's directory
 
+## From scratch to a basic webpage
+- Find a basic HTML page template such as [http://www.sitepoint.com/a-basic-html5-template/]
+- Adapt it to your needs
